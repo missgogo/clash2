@@ -691,3 +691,9 @@ DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhipin.com
 DOMAIN-SUFFIX,zhongsou.com
 DOMAIN-SUFFIX,zhuihd.com
+
+# 从 cn.list 合并的内容
+# TEMU卖家
+DOMAIN,agentseller.temu.com
+# Tailscale 虚拟组网（国内使用场景）
+DOMAIN-SUFFIX,tailscale.com

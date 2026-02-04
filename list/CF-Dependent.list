@@ -1,0 +1,51 @@
+# 内容：Cloudflare依赖服务（需要避开CF节点，防止循环）
+# 数量：28条
+
+# Cloudflare验证服务
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,cf-turnstile.com
+DOMAIN-SUFFIX,turnstile.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-KEYWORD,recaptcha
+DOMAIN-KEYWORD,turnstile
+
+# reCaptcha相关
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,www.google.com
+DOMAIN-SUFFIX,accounts.google.com
+
+# Cloudflare加速/CDN检测
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare-cn.com
+DOMAIN-SUFFIX,cloudflareresolve.com
+DOMAIN-SUFFIX,one.one.one.one
+DOMAIN-SUFFIX,1.1.1.1
+DOMAIN-SUFFIX,1.0.0.1
+DOMAIN-SUFFIX,cf-dns.com
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cf-challenge.com
+DOMAIN-SUFFIX,cf-assets.com
+
+# 使用Cloudflare的常用服务（可能需要避开CF节点）
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,ip111.cn
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,dnsleaktest.org
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,whatismyip.com
+DOMAIN-SUFFIX,surfshark.com
+DOMAIN-SUFFIX,v2rayse.com
+
+# 注意：这些服务通常部署在CF上，如果走CF节点访问可能出现：
+# 1. 无法显示验证码
+# 2. 被认为是机器人
+# 3. 循环重定向
+# 应该通过非CF节点访问
+

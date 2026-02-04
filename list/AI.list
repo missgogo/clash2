@@ -1,17 +1,18 @@
-# 内容：OpenAi Bard anthropic
+# 内容：AI Services (OpenAI, Claude, Gemini, Meta AI, Grok, Perplexity, Apple AI, etc.)
+# 数量：67条
+
 # 域名关键字匹配
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,Claude
-DOMAIN-KEYWORD,gstatic
-DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,meta.ai
 DOMAIN-KEYWORD,grokipedia
-# 域名后缀匹配
-DOMAIN,copilot.microsoft.com
-DOMAIN-SUFFIX,bing.com
 
+# OpenAI / ChatGPT
+DOMAIN,copilot.microsoft.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
@@ -23,10 +24,24 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+
+# Google / Gemini
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,signalr.net
+
+# Anthropic / Claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,circumlunar.space
@@ -34,18 +49,35 @@ DOMAIN-SUFFIX,vulpes.one
 DOMAIN-SUFFIX,mozz.us
 DOMAIN-SUFFIX,conman.org
 DOMAIN-SUFFIX,bortzmeyer.org
-DOMAIN-SUFFIX,groq.com
-DOMAIN-SUFFIX,difyai.com
-DOMAIN-SUFFIX,genspark.ai
 
+# xAI / Grok
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,x.ai
 
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,signalr.net
+# Meta AI
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metademolab.com
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,skywork.ai
 
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
 
+# Other AI
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,difyai.com
+DOMAIN-SUFFIX,genspark.ai
+
+# Microsoft Copilot
+DOMAIN-SUFFIX,bing.com
+
+# Apple Intelligence
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 
