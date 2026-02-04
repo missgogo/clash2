@@ -10,10 +10,6 @@ DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-KEYWORD,recaptcha
 DOMAIN-KEYWORD,turnstile
 
-# reCaptcha相关
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,www.google.com
-DOMAIN-SUFFIX,accounts.google.com
 
 # Cloudflare加速/CDN检测
 DOMAIN-SUFFIX,cloudflare.com
