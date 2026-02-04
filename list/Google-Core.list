@@ -1,8 +1,8 @@
 # 内容：Google核心服务（搜索、账号、API等，不含YouTube）
-# 数量：45条
+# 数量：44条
+# 注意：移除了DOMAIN-KEYWORD,google，避免匹配youtube/googlevideo等
 
 # Google搜索和核心域名
-DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,google.ac
 DOMAIN-SUFFIX,google.ad
