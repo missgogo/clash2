@@ -238,6 +238,10 @@ DOMAIN-SUFFIX,storage.googleapis.com
 DOMAIN-SUFFIX,firebasestorage.googleapis.com
 DOMAIN-SUFFIX,clientservices.googleapis.com
 
+# antigravity核心服务
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN-SUFFIX,open-vsx.org
+
 # 注意：以下域名明确排除，由YouTube.list单独处理
 # DOMAIN-SUFFIX,youtube.com
 # DOMAIN-SUFFIX,googlevideo.com
