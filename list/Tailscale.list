@@ -1,0 +1,81 @@
+# Tailscale 虚拟组网
+# 控制平面
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tailscale.io
+
+# 控制服务器
+DOMAIN-SUFFIX,controlplane.tailscale.com
+DOMAIN-SUFFIX,login.tailscale.com
+DOMAIN-SUFFIX,log.tailscale.com
+DOMAIN-SUFFIX,console.tailscale.com
+
+# DERP 中继服务器（全球28个地区）
+# 亚太地区
+DOMAIN-SUFFIX,derp3.tailscale.com
+DOMAIN-SUFFIX,derp7.tailscale.com
+DOMAIN-SUFFIX,derp20.tailscale.com
+DOMAIN-SUFFIX,derp6.tailscale.com
+DOMAIN-SUFFIX,derp23.tailscale.com
+DOMAIN-SUFFIX,derp24.tailscale.com
+DOMAIN-SUFFIX,derp25.tailscale.com
+DOMAIN-SUFFIX,derp28.tailscale.com
+
+# 美洲地区
+DOMAIN-SUFFIX,derp1.tailscale.com
+DOMAIN-SUFFIX,derp2.tailscale.com
+DOMAIN-SUFFIX,derp9.tailscale.com
+DOMAIN-SUFFIX,derp10.tailscale.com
+DOMAIN-SUFFIX,derp12.tailscale.com
+DOMAIN-SUFFIX,derp13.tailscale.com
+DOMAIN-SUFFIX,derp16.tailscale.com
+DOMAIN-SUFFIX,derp17.tailscale.com
+DOMAIN-SUFFIX,derp27.tailscale.com
+
+# 欧洲地区
+DOMAIN-SUFFIX,derp4.tailscale.com
+DOMAIN-SUFFIX,derp8.tailscale.com
+DOMAIN-SUFFIX,derp14.tailscale.com
+DOMAIN-SUFFIX,derp15.tailscale.com
+DOMAIN-SUFFIX,derp18.tailscale.com
+DOMAIN-SUFFIX,derp19.tailscale.com
+DOMAIN-SUFFIX,derp22.tailscale.com
+DOMAIN-SUFFIX,derp26.tailscale.com
+
+# 南美地区
+DOMAIN-SUFFIX,derp11.tailscale.com
+
+# DERP 通用域名
+DOMAIN-SUFFIX,derp1-all.tailscale.com
+DOMAIN-SUFFIX,derp2-all.tailscale.com
+DOMAIN-SUFFIX,derp3-all.tailscale.com
+DOMAIN-SUFFIX,derp4-all.tailscale.com
+DOMAIN-SUFFIX,derp7-all.tailscale.com
+DOMAIN-SUFFIX,derp8-all.tailscale.com
+DOMAIN-SUFFIX,derp9-all.tailscale.com
+DOMAIN-SUFFIX,derp10-all.tailscale.com
+DOMAIN-SUFFIX,derp11-all.tailscale.com
+DOMAIN-SUFFIX,derp12-all.tailscale.com
+DOMAIN-SUFFIX,derp13-all.tailscale.com
+DOMAIN-SUFFIX,derp14-all.tailscale.com
+DOMAIN-SUFFIX,derp15-all.tailscale.com
+DOMAIN-SUFFIX,derp16-all.tailscale.com
+DOMAIN-SUFFIX,derp17-all.tailscale.com
+DOMAIN-SUFFIX,derp18-all.tailscale.com
+DOMAIN-SUFFIX,derp19-all.tailscale.com
+DOMAIN-SUFFIX,derp20-all.tailscale.com
+DOMAIN-SUFFIX,derp21-all.tailscale.com
+DOMAIN-SUFFIX,derp22-all.tailscale.com
+DOMAIN-SUFFIX,derp23-all.tailscale.com
+DOMAIN-SUFFIX,derp24-all.tailscale.com
+DOMAIN-SUFFIX,derp25-all.tailscale.com
+DOMAIN-SUFFIX,derp26-all.tailscale.com
+DOMAIN-SUFFIX,derp27-all.tailscale.com
+DOMAIN-SUFFIX,derp28-all.tailscale.com
+
+# Tailscale 控制平面 IP 范围
+# login.tailscale.com / controlplane.tailscale.com
+IP-CIDR,192.200.0.0/24,no-resolve
+IP-CIDR6,2606:B740:49::/48,no-resolve
+# log.tailscale.com
+IP-CIDR,199.165.136.0/24,no-resolve
+IP-CIDR6,2606:B740:1::/48,no-resolve
